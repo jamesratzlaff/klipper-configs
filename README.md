@@ -1,2 +1,2 @@
 # klipper-configs
-Klipper config for a Creality CR-10S with a microswiss direct drive extruder+hotend, BTT SKR 2 board, bl touch, and ADXL345 wired to the wifi socket of the SKR2
+Klipper config for a Creality CR-10S with a microswiss direct drive extruder+hotend, BTT SKR 2 board, TMC2209 (all slots), bl touch, and ADXL345 wired to the wifi socket of the SKR2.  The mount used for the bl-touch is the "standard" metal mount that screws over top/in-front-of the fan shroud. The Z-steppers are connected in parallel.  The extruder rotation-distance in this config may seem too large value-wise but using the calibrated value causes over extrusion in pronts for some reason. Also included some macros for wearing in delrin POM wheels.
